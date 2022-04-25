@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"02_timer\startup_stm32f103x6.o"
+"02_timer\main.o"
+"02_timer\gpio.o"
+"02_timer\stm32f1xx_it.o"
+"02_timer\stm32f1xx_hal_msp.o"
+"02_timer\stm32f1xx_hal_gpio_ex.o"
+"02_timer\stm32f1xx_hal_tim.o"
+"02_timer\stm32f1xx_hal_tim_ex.o"
+"02_timer\stm32f1xx_hal.o"
+"02_timer\stm32f1xx_hal_rcc.o"
+"02_timer\stm32f1xx_hal_rcc_ex.o"
+"02_timer\stm32f1xx_hal_gpio.o"
+"02_timer\stm32f1xx_hal_dma.o"
+"02_timer\stm32f1xx_hal_cortex.o"
+"02_timer\stm32f1xx_hal_pwr.o"
+"02_timer\stm32f1xx_hal_flash.o"
+"02_timer\stm32f1xx_hal_flash_ex.o"
+"02_timer\stm32f1xx_hal_exti.o"
+"02_timer\system_stm32f1xx.o"
+--strict --scatter "02_timer\02_timer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "02_timer.map" -o 02_timer\02_timer.axf
