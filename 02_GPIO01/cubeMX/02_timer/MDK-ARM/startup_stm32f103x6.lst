@@ -452,17 +452,17 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=02_timer\startup_stm32f103x6.d -o02_timer\startup_stm32f103x6.o -I
-D:\Embeded\Project\02_timer\cubaMX\02_timer\MDK-ARM\RTE -ID:\Software\Keil_MDK\
+D:\Embeded\Project\02_GPIO01\cubeMX\02_timer\MDK-ARM\RTE -ID:\Software\Keil_MDK
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\Software\Keil_MDK\ARM\PACK\Keil\STM
-32F1xx_DFP\2.4.0\Device\Include --predefine="__UVISION_VERSION SETA 518" --pred
-efine="_RTE_ SETA 1" --predefine="STM32F10X_LD SETA 1" --list=startup_stm32f103
-x6.lst startup_stm32f103x6.s
+\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\Software\Keil_MDK\ARM\PACK\Keil\ST
+M32F1xx_DFP\2.4.0\Device\Include --predefine="__UVISION_VERSION SETA 518" --pre
+define="_RTE_ SETA 1" --predefine="STM32F10X_LD SETA 1" --list=startup_stm32f10
+3x6.lst startup_stm32f103x6.s
 
 
 
