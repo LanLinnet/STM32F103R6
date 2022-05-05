@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"05_gpio04\startup_stm32f103x6.o"
+"05_gpio04\main.o"
+"05_gpio04\gpio.o"
+"05_gpio04\stm32f1xx_it.o"
+"05_gpio04\stm32f1xx_hal_msp.o"
+"05_gpio04\stm32f1xx_hal_gpio_ex.o"
+"05_gpio04\stm32f1xx_ll_gpio.o"
+"05_gpio04\stm32f1xx_hal_tim.o"
+"05_gpio04\stm32f1xx_hal_tim_ex.o"
+"05_gpio04\stm32f1xx_hal.o"
+"05_gpio04\stm32f1xx_hal_rcc.o"
+"05_gpio04\stm32f1xx_hal_rcc_ex.o"
+"05_gpio04\stm32f1xx_hal_gpio.o"
+"05_gpio04\stm32f1xx_hal_dma.o"
+"05_gpio04\stm32f1xx_hal_cortex.o"
+"05_gpio04\stm32f1xx_hal_pwr.o"
+"05_gpio04\stm32f1xx_hal_flash.o"
+"05_gpio04\stm32f1xx_hal_flash_ex.o"
+"05_gpio04\stm32f1xx_hal_exti.o"
+"05_gpio04\stm32f1xx_ll_rcc.o"
+"05_gpio04\stm32f1xx_ll_utils.o"
+"05_gpio04\stm32f1xx_ll_exti.o"
+"05_gpio04\system_stm32f1xx.o"
+--strict --scatter "05_GPIO04\05_GPIO04.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "05_GPIO04.map" -o 05_GPIO04\05_GPIO04.axf
