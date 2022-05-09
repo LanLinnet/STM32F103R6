@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"08_tim01\startup_stm32f103x6.o"
+"08_tim01\main.o"
+"08_tim01\gpio.o"
+"08_tim01\tim.o"
+"08_tim01\stm32f1xx_it.o"
+"08_tim01\stm32f1xx_hal_msp.o"
+"08_tim01\stm32f1xx_hal_gpio_ex.o"
+"08_tim01\stm32f1xx_hal_tim.o"
+"08_tim01\stm32f1xx_hal_tim_ex.o"
+"08_tim01\stm32f1xx_hal.o"
+"08_tim01\stm32f1xx_hal_rcc.o"
+"08_tim01\stm32f1xx_hal_rcc_ex.o"
+"08_tim01\stm32f1xx_hal_gpio.o"
+"08_tim01\stm32f1xx_hal_dma.o"
+"08_tim01\stm32f1xx_hal_cortex.o"
+"08_tim01\stm32f1xx_hal_pwr.o"
+"08_tim01\stm32f1xx_hal_flash.o"
+"08_tim01\stm32f1xx_hal_flash_ex.o"
+"08_tim01\stm32f1xx_hal_exti.o"
+"08_tim01\system_stm32f1xx.o"
+--strict --scatter "08_TIM01\08_TIM01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "08_TIM01.map" -o 08_TIM01\08_TIM01.axf
