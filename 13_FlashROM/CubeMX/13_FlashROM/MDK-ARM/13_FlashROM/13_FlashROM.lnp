@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"13_flashrom\startup_stm32f103x6.o"
+"13_flashrom\main.o"
+"13_flashrom\gpio.o"
+"13_flashrom\usart.o"
+"13_flashrom\stm32f1xx_it.o"
+"13_flashrom\stm32f1xx_hal_msp.o"
+"13_flashrom\stm32f1xx_hal_gpio_ex.o"
+"13_flashrom\stm32f1xx_hal_tim.o"
+"13_flashrom\stm32f1xx_hal_tim_ex.o"
+"13_flashrom\stm32f1xx_hal_uart.o"
+"13_flashrom\stm32f1xx_hal.o"
+"13_flashrom\stm32f1xx_hal_rcc.o"
+"13_flashrom\stm32f1xx_hal_rcc_ex.o"
+"13_flashrom\stm32f1xx_hal_gpio.o"
+"13_flashrom\stm32f1xx_hal_dma.o"
+"13_flashrom\stm32f1xx_hal_cortex.o"
+"13_flashrom\stm32f1xx_hal_pwr.o"
+"13_flashrom\stm32f1xx_hal_flash.o"
+"13_flashrom\stm32f1xx_hal_flash_ex.o"
+"13_flashrom\stm32f1xx_hal_exti.o"
+"13_flashrom\system_stm32f1xx.o"
+--strict --scatter "13_FlashROM\13_FlashROM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "13_FlashROM.map" -o 13_FlashROM\13_FlashROM.axf
