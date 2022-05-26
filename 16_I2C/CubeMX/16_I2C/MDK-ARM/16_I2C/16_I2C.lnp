@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"16_i2c\startup_stm32f103x6.o"
+"16_i2c\main.o"
+"16_i2c\gpio.o"
+"16_i2c\usart.o"
+"16_i2c\stm32f1xx_it.o"
+"16_i2c\stm32f1xx_hal_msp.o"
+"16_i2c\stm32f1xx_hal_gpio_ex.o"
+"16_i2c\stm32f1xx_hal_tim.o"
+"16_i2c\stm32f1xx_hal_tim_ex.o"
+"16_i2c\stm32f1xx_hal_uart.o"
+"16_i2c\stm32f1xx_hal.o"
+"16_i2c\stm32f1xx_hal_rcc.o"
+"16_i2c\stm32f1xx_hal_rcc_ex.o"
+"16_i2c\stm32f1xx_hal_gpio.o"
+"16_i2c\stm32f1xx_hal_dma.o"
+"16_i2c\stm32f1xx_hal_cortex.o"
+"16_i2c\stm32f1xx_hal_pwr.o"
+"16_i2c\stm32f1xx_hal_flash.o"
+"16_i2c\stm32f1xx_hal_flash_ex.o"
+"16_i2c\stm32f1xx_hal_exti.o"
+"16_i2c\system_stm32f1xx.o"
+--strict --scatter "16_I2C\16_I2C.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "16_I2C.map" -o 16_I2C\16_I2C.axf
