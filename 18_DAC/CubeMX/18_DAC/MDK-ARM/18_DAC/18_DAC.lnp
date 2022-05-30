@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"18_dac\startup_stm32f103x6.o"
+"18_dac\main.o"
+"18_dac\gpio.o"
+"18_dac\stm32f1xx_it.o"
+"18_dac\stm32f1xx_hal_msp.o"
+"18_dac\stm32f1xx_hal_gpio_ex.o"
+"18_dac\stm32f1xx_hal_tim.o"
+"18_dac\stm32f1xx_hal_tim_ex.o"
+"18_dac\stm32f1xx_hal.o"
+"18_dac\stm32f1xx_hal_rcc.o"
+"18_dac\stm32f1xx_hal_rcc_ex.o"
+"18_dac\stm32f1xx_hal_gpio.o"
+"18_dac\stm32f1xx_hal_dma.o"
+"18_dac\stm32f1xx_hal_cortex.o"
+"18_dac\stm32f1xx_hal_pwr.o"
+"18_dac\stm32f1xx_hal_flash.o"
+"18_dac\stm32f1xx_hal_flash_ex.o"
+"18_dac\stm32f1xx_hal_exti.o"
+"18_dac\system_stm32f1xx.o"
+--strict --scatter "18_DAC\18_DAC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "18_DAC.map" -o 18_DAC\18_DAC.axf
