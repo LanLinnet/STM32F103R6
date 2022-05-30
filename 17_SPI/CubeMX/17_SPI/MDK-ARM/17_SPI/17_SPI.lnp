@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"17_spi\startup_stm32f103x6.o"
+"17_spi\main.o"
+"17_spi\gpio.o"
+"17_spi\usart.o"
+"17_spi\stm32f1xx_it.o"
+"17_spi\stm32f1xx_hal_msp.o"
+"17_spi\stm32f1xx_hal_gpio_ex.o"
+"17_spi\stm32f1xx_hal_tim.o"
+"17_spi\stm32f1xx_hal_tim_ex.o"
+"17_spi\stm32f1xx_hal_uart.o"
+"17_spi\stm32f1xx_hal.o"
+"17_spi\stm32f1xx_hal_rcc.o"
+"17_spi\stm32f1xx_hal_rcc_ex.o"
+"17_spi\stm32f1xx_hal_gpio.o"
+"17_spi\stm32f1xx_hal_dma.o"
+"17_spi\stm32f1xx_hal_cortex.o"
+"17_spi\stm32f1xx_hal_pwr.o"
+"17_spi\stm32f1xx_hal_flash.o"
+"17_spi\stm32f1xx_hal_flash_ex.o"
+"17_spi\stm32f1xx_hal_exti.o"
+"17_spi\system_stm32f1xx.o"
+--strict --scatter "17_SPI\17_SPI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "17_SPI.map" -o 17_SPI\17_SPI.axf
