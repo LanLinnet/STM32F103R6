@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"19_motordc\startup_stm32f103x6.o"
+"19_motordc\main.o"
+"19_motordc\gpio.o"
+"19_motordc\tim.o"
+"19_motordc\usart.o"
+"19_motordc\stm32f1xx_it.o"
+"19_motordc\stm32f1xx_hal_msp.o"
+"19_motordc\stm32f1xx_hal_gpio_ex.o"
+"19_motordc\stm32f1xx_hal_tim.o"
+"19_motordc\stm32f1xx_hal_tim_ex.o"
+"19_motordc\stm32f1xx_hal.o"
+"19_motordc\stm32f1xx_hal_rcc.o"
+"19_motordc\stm32f1xx_hal_rcc_ex.o"
+"19_motordc\stm32f1xx_hal_gpio.o"
+"19_motordc\stm32f1xx_hal_dma.o"
+"19_motordc\stm32f1xx_hal_cortex.o"
+"19_motordc\stm32f1xx_hal_pwr.o"
+"19_motordc\stm32f1xx_hal_flash.o"
+"19_motordc\stm32f1xx_hal_flash_ex.o"
+"19_motordc\stm32f1xx_hal_exti.o"
+"19_motordc\stm32f1xx_hal_uart.o"
+"19_motordc\system_stm32f1xx.o"
+--strict --scatter "19_MotorDC\19_MotorDC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "19_MotorDC.map" -o 19_MotorDC\19_MotorDC.axf
