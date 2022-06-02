@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>19_MotorDC</TargetName>
+      <TargetName>20_MotorStepper</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060061::V5.06 update 1 (build 61)::ARMCC</pCCUsed>
@@ -47,8 +47,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>19_MotorDC\</OutputDirectory>
-          <OutputName>19_MotorDC</OutputName>
+          <OutputDirectory>20_MotorStepper\</OutputDirectory>
+          <OutputName>20_MotorStepper</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -515,7 +515,7 @@
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="4.3.0" condition="CMSIS Core">
         <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.5.0"/>
         <targetInfos>
-          <targetInfo name="19_MotorDC"/>
+          <targetInfo name="20_MotorStepper"/>
         </targetInfos>
       </component>
     </components>

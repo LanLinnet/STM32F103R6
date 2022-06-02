@@ -22,7 +22,7 @@
   </DaveTm>
 
   <Target>
-    <TargetName>19_MotorDC</TargetName>
+    <TargetName>20_MotorStepper</TargetName>
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>

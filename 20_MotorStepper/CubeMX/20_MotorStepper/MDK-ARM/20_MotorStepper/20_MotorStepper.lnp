@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"20_motorstepper\startup_stm32f103x6.o"
+"20_motorstepper\main.o"
+"20_motorstepper\gpio.o"
+"20_motorstepper\tim.o"
+"20_motorstepper\usart.o"
+"20_motorstepper\stm32f1xx_it.o"
+"20_motorstepper\stm32f1xx_hal_msp.o"
+"20_motorstepper\stm32f1xx_hal_gpio_ex.o"
+"20_motorstepper\stm32f1xx_hal_tim.o"
+"20_motorstepper\stm32f1xx_hal_tim_ex.o"
+"20_motorstepper\stm32f1xx_hal.o"
+"20_motorstepper\stm32f1xx_hal_rcc.o"
+"20_motorstepper\stm32f1xx_hal_rcc_ex.o"
+"20_motorstepper\stm32f1xx_hal_gpio.o"
+"20_motorstepper\stm32f1xx_hal_dma.o"
+"20_motorstepper\stm32f1xx_hal_cortex.o"
+"20_motorstepper\stm32f1xx_hal_pwr.o"
+"20_motorstepper\stm32f1xx_hal_flash.o"
+"20_motorstepper\stm32f1xx_hal_flash_ex.o"
+"20_motorstepper\stm32f1xx_hal_exti.o"
+"20_motorstepper\stm32f1xx_hal_uart.o"
+"20_motorstepper\system_stm32f1xx.o"
+--strict --scatter "20_MotorStepper\20_MotorStepper.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "20_MotorStepper.map" -o 20_MotorStepper\20_MotorStepper.axf
